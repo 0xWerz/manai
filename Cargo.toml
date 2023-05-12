@@ -1,0 +1,19 @@
+[package]
+name = "manai"
+version = "0.1.0"
+edition = "2021"
+authors = ["0xWerz <https://github.com/0xwerz>"]
+description = "A simple CLI tool to interact with the OPENAI API"
+homepage = "https://github.com/0xwerz/manai"
+keywords = ["openai", "cli", "api", "chatgpt"]
+# build = "build.rs"
+build = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "^0.11", features = ["json"] }
+tokio = { version = "^1.0", features = ["full"] }
+serde = { version = "^1.0", features = ["derive"] }
+serde_json = "1.0"
+dotenv = "0.15.0"
