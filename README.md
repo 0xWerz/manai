@@ -76,3 +76,5 @@ Replace `<Your prompt goes here>` with the prompt you want to use. The AI respon
 ## Example
 
 Here's an example of using the CLI in single prompt mode:
+
+![Demo](assets/demo.gif)
